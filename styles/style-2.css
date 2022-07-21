@@ -17,7 +17,7 @@
 
 
 
-
+/* Header Start */
 .header{
     grid-column: 1 / -1;
     display: flex;
@@ -65,13 +65,13 @@
     object-fit: cover;
     object-position: center;
 }
+/* Header End */
 
 
 
 
 
-
-
+/* Animation Start */
 @keyframes sliding {
     0%{
         
@@ -93,6 +93,7 @@
     animation: sliding 2s ease-in-out 0.5s infinite alternate forwards;
     animation-play-state: running;
 }
+/* Animation End */
 
 
 
@@ -100,7 +101,7 @@
 
 
 
-
+/* Navagition Start */
 .sidebar{
     background-color: black;
     grid-column: 2 / 5;
@@ -134,11 +135,12 @@
     text-decoration: none;
     color: var(--main-text-color);
 }
+/* Navagition End */
 
 
 
 
-
+/* Main Content Start */
 .main-content{
     grid-column: 5/14;
 }
